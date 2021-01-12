@@ -488,9 +488,9 @@ body {
 }
 
 .container {
-	display: grid;
+	display:grid;
 	grid-template-columns: 1fr 1fr;
-	border-radius: 10px;
+	border-radius: 800px;
 	overflow: hidden;
 }
 
@@ -506,23 +506,30 @@ body {
 
 .days {
 	background: linear-gradient(90deg, #b33a46, #9b313c);
+	border-radius: 90px;
+
+	
 }
 
 .hours {
 	background: linear-gradient(90deg, #a7c3cd, #90a9b2);
+	border-radius: 90px;
 }
 
 .minutes {
 	background-color: #874562;
+	border-radius: 90px;
 }
 
 .seconds {
 	background-color: #145689;
+	border-radius: 90px;
 }
 
 .date {
 	color: #874562;
 	font-weight: 900;
+	font-family: 'Redressed', cursive;
 }
 
 .place {
@@ -533,9 +540,11 @@ body {
 .footer {
 	color: #564861;
 	text-align: center;
-	font-size: 16px;
+	font-size: 24px;
 	margin: 24px;
-	font-family: Georgia, 'Times New Roman', Times, serif;
+	line-height: 1.8;
+	/*font-family: Georgia, 'Times New Roman', Times, serif;*/
+	font-family: 'Redressed', cursive;
 }
 
 .phone {
@@ -550,7 +559,7 @@ body {
 	border-radius: 20px;
 	font-size: 14px;
 	color: #fff;
-	font-size: 24px;
+	font-size: 20px;
 }
 
 a {
@@ -559,7 +568,7 @@ a {
 
 .happiness {
 	color: #874562;
-	font-size: 24px;
+	font-size: 15px;
 	font-weight: bold;
 	text-align: center;
 	margin-bottom: 24px;
@@ -577,4 +586,60 @@ a {
 	display: flex;
 	font-size: 12px;
 	letter-spacing: 0pt;
+}
+
+.design{
+	font-size: small;
+	font-family: 'Redressed', cursive;
+}
+
+.address{
+
+	width: auto;
+	height: auto;
+	padding: 12px;
+	padding-bottom: 12px;
+	background: linear-gradient(90deg, #ece5e6, #aaa6a7);
+	border-radius: 20px;
+	font-size: 14px;
+	
+	color: #564861;
+	text-align: center;
+	font-size: 20px;
+	margin: 24px;
+	line-height: 1.6;
+	font-family: 'Redressed', cursive;
+}
+.regard{
+	color:#145689;
+	text-align: center;
+	font-size: 20px;
+	margin: 24px;
+	line-height: 1.6;
+	font-family: 'Redressed', cursive;
+}
+
+.v{
+	width: 75%;
+	height: auto;
+	padding: 12px;
+	padding-bottom: 12px;
+	background: linear-gradient(90deg, #d1cccc, #dad3d3);
+	border-radius: 20px;
+	font-size: 14px;
+	color: rgb(129, 8, 8);
+	font-size: 22px;
+	text-align: center;
+	font-family: 'Redressed', cursive;
+}
+
+.v span,.v h3{
+	width: auto;
+	height: auto;
+	background: linear-gradient(90deg, #d1cccc, #dad3d3);
+	border-radius: 20px;
+	color: rgb(129, 8, 8);
+	font-size: 22px !important;
+	text-align: center;
+	font-family: 'Redressed', cursive;
 }
