@@ -634,7 +634,8 @@ a {
 	/*background: linear-gradient(90deg, #d1cccc, #dad3d3);*/
 	border-radius: 20px;
 	font-size: 14px;
-	color: rgb(129, 8, 8);
+	color:#874562;
+	/*color: rgb(129, 8, 8);*/
 	font-size: 22px;
 	text-align: center;
 	font-family: 'Redressed', cursive;
@@ -645,7 +646,8 @@ a {
 	height: auto;
 	/*background: linear-gradient(90deg, #d1cccc, #dad3d3);*/
 	border-radius: 20px;
-	color: rgb(129, 8, 8);
+	color:#874562;
+	/*color: rgb(129, 8, 8);*/
 	font-size: 22px !important;
 	text-align: center;
 	font-family: 'Redressed', cursive;
