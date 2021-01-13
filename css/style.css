@@ -610,6 +610,12 @@ a {
 	line-height: 1.6;
 	font-family: 'Redressed', cursive;
 }
+
+.address a{
+	color: #564861;
+	font-family: 'Redressed', cursive;
+}
+
 .regard{
 	color:#145689;
 	text-align: center;
@@ -624,7 +630,8 @@ a {
 	height: auto;
 	padding: 12px;
 	padding-bottom: 12px;
-	background: linear-gradient(90deg, #d1cccc, #dad3d3);
+	background: linear-gradient(90deg, #ece5e6, #aaa6a7);
+	/*background: linear-gradient(90deg, #d1cccc, #dad3d3);*/
 	border-radius: 20px;
 	font-size: 14px;
 	color: rgb(129, 8, 8);
@@ -636,7 +643,7 @@ a {
 .v span,.v h3{
 	width: auto;
 	height: auto;
-	background: linear-gradient(90deg, #d1cccc, #dad3d3);
+	/*background: linear-gradient(90deg, #d1cccc, #dad3d3);*/
 	border-radius: 20px;
 	color: rgb(129, 8, 8);
 	font-size: 22px !important;
