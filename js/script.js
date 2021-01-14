@@ -20,6 +20,13 @@
  * Listen here: https://youtu.be/X0MDALpV29s
  *
  */
+
+Swal.fire({
+        title: "Annaberu Matt's <br> Wedding Invetation",
+        confirmButtonText: "Welcome",
+        
+      });
+
 $(document).on('click', function(){
     document.getElementById("my_audio").play();
     console.log('Shaadi me zaroor aana');
