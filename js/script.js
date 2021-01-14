@@ -22,7 +22,7 @@
  */
 
 Swal.fire({
-        title: "Annaberu Matt's <br> Wedding Invetation",
+        title: "Anaberu Matt's <br> Wedding Invetation",
         confirmButtonText: "Welcome",
         
       });
