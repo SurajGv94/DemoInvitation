@@ -22,7 +22,7 @@
  */
 
 Swal.fire({
-        title: "Anaberu Matt's <br> Wedding Invitation",
+        title: "Patil Family <br> Wedding Invitation",
         confirmButtonText: "Welcome",
         
       });
@@ -33,7 +33,7 @@ $(document).on('click', function(){
 });
 
 // Set the date we're counting down to
-var countDownDate = new Date("Mar 03, 2021 00:00:00").getTime();
+var countDownDate = new Date("MAY 09, 2021 00:00:00").getTime();
 
 // Update the count down every 1 second
 var x = setInterval(function() {
@@ -92,7 +92,7 @@ var styles2 = [
     , 'font-size: 32px'
 ].join(';');
 
-console.log('\n\n%c SAVE THE DATE: 29th Nov, 2020!', styles);
+console.log('\n\n%c SAVE THE DATE: 09th May, 2021!', styles);
 
 console.log('%cYour presence is requested!%c\n\nRegards: ', styles1, styles2);
 
