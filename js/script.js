@@ -22,7 +22,7 @@
  */
 
 Swal.fire({
-        title: "Patil Family <br> Wedding Invitation",
+        title: "PATIL FAMILY <br> Wedding Invitation",
         confirmButtonText: "Welcome",
         
       });
