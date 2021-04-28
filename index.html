@@ -101,12 +101,7 @@
         <source src="https://www.youtube.com/occFwveirpA" type="video/mp4">
         </video> -->
          
-<!--           <div class="video-container">
-         <div class="video2" data-video = "occFwveirpA"
-         data-height = "100%"
-         data-width = "100%"
-         id = "youtube-player">       
-      </div> -->
+
       
              <!-- 1. The <iframe> (video player) will replace this <div> tag. -->
 <div id="player"></div>
@@ -137,6 +132,16 @@
   function onPlayerReady(event) {
    // event.target.mute();
     event.target.playVideo();
+  }
+   
+   function onPlayerStateChange(event) {
+    if (event.data == YT.PlayerState.ENDED) {
+      player.seekTo(0);
+      player.playVideo();
+    }
+  }
+  function stopVideo() {
+    player.stopVideo();
   }
 </script>
 
