@@ -97,9 +97,18 @@
 
          </p>
       
-         <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="myVideo">
+<!--          <video autoplay="autoplay" loop="loop" muted defaultMuted playsinline  oncontextmenu="return false;"  preload="auto"  id="myVideo">
         <source src="https://www.youtube.com/occFwveirpA" type="video/mp4">
-        </video>
+        </video> -->
+         
+          <div class="video-container">
+         <div class="video2" data-video = "occFwveirpA"
+         data-height = "480"
+         data-width = "640"
+         id = "youtube-player">       
+      </div>
+
+         
 <!--     <iframe width="400" height="315" src="https://www.youtube.com/embed/occFwveirpA?autoplay=1&controls=1&loop=1&playlist=occFwveirpA&amp" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>            -->
          <p class="happiness">Join us in our happiness!<br> <span class="regard">Best Regards : Veerangouda S Patil</span>  </p>
     
@@ -125,7 +134,25 @@
       <script src='https://cdn.jsdelivr.net/gh/timoschaefer/jQuery-Sakura/jquery-sakura.min.js'></script>
       <script  src="./js/script.js"></script>
          
-        
+         <script src="https://www.youtube.com/iframe_api"></script>
+    <script type="text/javascript">
+      function onYouTubeIframeAPIReady() {
+        var ctrlq = document.getElementById("youtube-player");
+        var player = new YT.Player('youtube-player', {
+          height: ctrlq.dataset.height,
+          width: ctrlq.dataset.width,
+          events: {
+            'onReady': function(e) {
+              e.target.cueVideoById({
+                videoId: ctrlq.dataset.video,
+                startSeconds: ctrlq.dataset.startseconds,
+                endSeconds: ctrlq.dataset.endseconds
+              });
+            }
+          }
+        });
+      }
+    </script>
          
    </body>
 
